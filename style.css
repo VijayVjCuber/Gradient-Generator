@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    color: rgb(0,0,0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: darkred;
+}
+
+
+button{
+    background-color: black;
+    border-radius: 10em;
+    color: white;
+    width: 7%;
+    height: 3.5vh;
+    border-color: orange;
+    box-shadow: 2px 2px 2px black;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    border-color: red;
+    font-size: 0.9em;
+    box-shadow: 5px 5px 5px black;
+}
+hr{
+    width: 25%;
+    height: 2px;
+    border-radius: 2em;
+    background-color: darkred;
+    border-color: black;
+}
